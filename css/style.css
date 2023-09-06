@@ -72,3 +72,18 @@ footer {
   text-align: center;
   padding: 1rem;
 }
+
+main {
+  background-color: rgb(191, 224, 236);
+}
+
+#pe-animation:hover {
+  color: white;
+  transform: scale(1.05);
+  transition: 0.5s;
+  text-shadow: 5px 1px 4px #2c8eff;
+}
+#pe-animation {
+  transition: 0.5s;
+  
+}
