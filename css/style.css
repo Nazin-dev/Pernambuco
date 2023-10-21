@@ -40,6 +40,20 @@ main {
   padding: 2rem;
 }
 
+@media (max-width: 858px){
+  img {
+    width: 600px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 640px){
+  img {
+    width: 400px;
+    margin: auto;
+  }
+}
+
 img {
   max-width: 800px;
   border-radius: 8px;
@@ -86,4 +100,13 @@ main {
 #pe-animation {
   transition: 0.5s;
   
+}
+
+iframe {
+  width: 900px;
+  height: 900px;
+  margin: auto;
+}
+.cot {
+  text-align: center;
 }
