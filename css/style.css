@@ -7,12 +7,29 @@ body, h1, h2, h3, p, ul, li {
 /* Estilos gerais */
 body {
   font-family: Arial, sans-serif;
+  background-image: linear-gradient(to left, #fff, #070707) !important;
 }
 
 header {
   background-color: #333;
   color: #fff;
   padding: 1rem;
+}
+
+.navbar {
+  background-color: #333;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.navbar-brand {
+  color: #fff !important;
+}
+
+.navbar-toggler {
+  background-color: #fff !important;
 }
 
 nav {
