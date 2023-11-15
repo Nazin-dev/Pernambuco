@@ -1,130 +1,35 @@
-/* Reset de estilos para garantir consistência */
-body, h1, h2, h3, p, ul, li {
-  margin: 0;
-  padding: 0;
-}
-
-/* Estilos gerais */
-body {
-  font-family: Arial, sans-serif;
-  background-image: linear-gradient(to left, #fff, #070707) !important;
-}
-
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 1rem;
-}
-
 .navbar {
-  background-color: #333;
+  background-color: #5a6167 !important;
 }
 
-.nav-link {
-  color: #fff !important;
+.nav-link, .navbar-brand {
+  color: white !important;
 }
 
-.navbar-brand {
-  color: #fff !important;
+.container-fluid {
+  text-align: center !important;
 }
 
-.navbar-toggler {
-  background-color: #fff !important;
+.links {
+  text-align: center;
 }
 
-nav {
-  display: flex;
-  justify-content: center;
+.btn {
+  width: 15em;
+  height: 4em;
+  margin-top: 5em;
 }
 
-.menu {
-  list-style: none;
-  display: flex;
+.btn:hover {
+  box-shadow: 4px 4px 3px black;
+  background-color: white !important;
+  color: #5a6167 !important;
 }
 
-.menu li {
-  margin: 0 1rem;
-}
-
-.menu a {
-  color: #fff;
-  text-decoration: none;
-}
-
-main {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 2rem;
-}
-
-@media (max-width: 858px){
-  img {
-    width: 600px;
-    margin: auto;
-  }
-}
-
-@media (max-width: 640px){
-  img {
-    width: 400px;
-    margin: auto;
-  }
-}
-
-img {
-  max-width: 800px;
-  border-radius: 8px;
-  margin-bottom: 8px;
-}
-
-section {
-  margin-bottom: 2rem;
-}
-
-h1, h2 {
-  color: #333;
-}
-
-h2 {
-  margin-bottom: 50px;
-  margin-top: 50px;
-}
-h1 {
-  margin-bottom: 30px;
+body {
+  background-image: url(/mid/ground-zero-2014135_1280.jpg);
 }
 
 p {
   text-indent: 50px;
 }
-
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 1rem;
-}
-
-main {
-  background-color: rgb(191, 224, 236);
-}
-
-#pe-animation:hover {
-  color: white;
-  transform: scale(1.05);
-  transition: 0.5s;
-  text-shadow: 5px 1px 4px #2c8eff;
-}
-#pe-animation {
-  transition: 0.5s;
-  
-}
-
-iframe {
-  width: 900px;
-  height: 900px;
-  margin: auto;
-}
-.cot {
-  text-align: center;
-}
-
